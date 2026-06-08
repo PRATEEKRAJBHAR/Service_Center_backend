@@ -8,11 +8,19 @@ const dbConnect = require('./config/db.js');
 
 dbConnect();
 
+// app.use(cors({
+//   origin: "http://localhost:5173",
+//   credentials: true
+// }));
 app.use(cors({
-  origin: "http://localhost:5173",
-  credentials: true
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:5175",
+    "http://localhost:5176",
+    "service-center-frontend.vercel.app"
+  ],
+  credentials: true,
 }));
-
 app.use(express.json());
 // app.use("/uploads", express.static(path.join(__dirname, "uploads")));  // its remove because now using the cloudnery
 

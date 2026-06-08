@@ -1,0 +1,32 @@
+{
+  "name": "service_center_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^1.41.3",
+    "cookie": "^1.1.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.0",
+    "multer": "^2.1.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "^8.0.4",
+    "path": "^0.12.7",
+    "pdfkit": "^0.18.0",
+    "puppeteer": "^24.40.0",
+    "xlsx": "^0.18.5"
+  }
+}

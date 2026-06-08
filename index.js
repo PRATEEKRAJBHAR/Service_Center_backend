@@ -17,7 +17,7 @@ app.use(cors({
     "http://localhost:5173",
     "http://localhost:5175",
     "http://localhost:5176",
-    "service-center-frontend.vercel.app"
+    "https://service-center-frontend.vercel.app"
   ],
   credentials: true,
 }));
